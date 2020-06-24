@@ -1,0 +1,10 @@
+org\apache\lucene\analysis\vi\VietnameseASCIIAnalyzer$DefaultSetHolder.class
+org\apache\lucene\analysis\vi\VnCoreNLPUtils.class
+org\apache\lucene\analysis\vi\VietnameseASCIIAnalyzer.class
+org\apache\lucene\analysis\vi\VietnameseTokenizer$Location.class
+org\apache\lucene\analysis\vi\VietnameseAnalyzer.class
+org\apache\lucene\analysis\vi\VietnameseStopFilterFactory.class
+org\apache\lucene\analysis\core\WhitespaceASCIIAnalyzer.class
+org\apache\lucene\analysis\vi\VietnameseTokenizerFactory.class
+org\apache\lucene\analysis\vi\VietnameseAnalyzer$DefaultSetHolder.class
+org\apache\lucene\analysis\vi\VietnameseTokenizer.class
