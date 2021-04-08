@@ -1,1 +1,0 @@
-java -cp "C:\Users\Administrator\viettelco\cassandra\solr-vn-tokenizer\target\VnCoreNLP-1.1.2.jar;" -jar C:\Users\Administrator\viettelco\cassandra\solr-vn-tokenizer\target\solr-vn-analyzer-1.0.jar

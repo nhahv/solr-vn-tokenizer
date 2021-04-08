@@ -10,6 +10,14 @@
     </properties>
     <name>solr-vn-analyzer</name>
     <url>http://maven.apache.org</url>
+
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
+
     <dependencies>
         <dependency>
             <groupId>commons-io</groupId>
@@ -17,11 +25,9 @@
             <version>2.1</version>
         </dependency>
         <dependency>
-            <groupId>VnCoreNLP</groupId>
+            <groupId>com.github.nhahv</groupId>
             <artifactId>VnCoreNLP</artifactId>
             <version>1.1.2</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/../VnCoreNLP/target/VnCoreNLP-1.1.2.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>org.apache.lucene</groupId>

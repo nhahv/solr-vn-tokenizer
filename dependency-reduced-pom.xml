@@ -61,6 +61,12 @@
       </plugin>
     </plugins>
   </build>
+  <repositories>
+    <repository>
+      <id>jitpack.io</id>
+      <url>https://jitpack.io</url>
+    </repository>
+  </repositories>
   <dependencies>
     <dependency>
       <groupId>org.apache.lucene</groupId>
@@ -125,13 +131,6 @@
           <groupId>junit</groupId>
         </exclusion>
       </exclusions>
-    </dependency>
-    <dependency>
-      <groupId>VnCoreNLP</groupId>
-      <artifactId>VnCoreNLP</artifactId>
-      <version>1.1.2</version>
-      <scope>system</scope>
-      <systemPath>${project.basedir}/../VnCoreNLP/target/VnCoreNLP-1.1.2.jar</systemPath>
     </dependency>
   </dependencies>
   <properties>
