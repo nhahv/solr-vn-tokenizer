@@ -11,9 +11,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="VnCoreNLP-1.1.2" level="project" />
     <orderEntry type="library" name="Maven: commons-io:commons-io:2.1" level="project" />
-    <orderEntry type="library" name="Maven: com.github.nhahv:VnCoreNLP:1.1.2" level="project" />
+    <orderEntry type="library" name="Maven: com.github.nhahv:VnCoreNLP:v1.1.4" level="project" />
     <orderEntry type="library" name="Maven: org.apache.lucene:lucene-core:7.7.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.lucene:lucene-analyzers-common:7.7.1" level="project" />
     <orderEntry type="library" name="Maven: javax.xml.bind:jaxb-api:2.3.0" level="project" />

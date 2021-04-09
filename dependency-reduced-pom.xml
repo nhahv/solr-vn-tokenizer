@@ -6,6 +6,9 @@
   <name>solr-vn-analyzer</name>
   <version>1.0</version>
   <url>http://maven.apache.org</url>
+  <scm>
+    <connection>scm:git:https://github.com/nhahv/VnCoreNLP</connection>
+  </scm>
   <build>
     <plugins>
       <plugin>
@@ -45,10 +48,11 @@
               <goal>shade</goal>
             </goals>
             <configuration>
+              <minimizeJar>true</minimizeJar>
               <shadedArtifactAttached>false</shadedArtifactAttached>
               <transformers>
                 <transformer>
-                  <mainClass>Main</mainClass>
+                  <mainClass>org.apache.lucene.analysis.SolrVnAnalyzer</mainClass>
                 </transformer>
               </transformers>
             </configuration>
